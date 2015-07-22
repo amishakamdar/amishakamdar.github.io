@@ -370,20 +370,31 @@ hr {
 
 .team h5 {
 	margin-bottom: 10px;
+    font-size: 18px;
 }
 
 .team p.subtitle {
 	margin-bottom: 10px;
+    font-size: 18px;
+    text-align: justify;
 }
 
 .avatar {
 	margin-bottom: 20px;
 }
 
+.team ul{
+    padding-left: 0px;
+    text-align: left;
+    font-size: 18px;
+}
+
+.team li{
+    padding-bottom: 10px;
+}
 .team-social {
 	margin-left: 0;
 	padding-left: 0;
-	
 }
 
 .team-social {
