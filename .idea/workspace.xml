@@ -2,11 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="0e9c8aa1-612d-478d-89be-a9086621fab3" name="Default" comment="">
-      <change type="DELETED" beforePath="C:\Users\Pratham\Desktop\Amisha\Website\amishakamdar.github.io\img\bg.jpg" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Pratham\Desktop\Amisha\Website\amishakamdar.github.io\img\bg1.jpg" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Pratham\Desktop\Amisha\Website\amishakamdar.github.io\img\bg1.png" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.html" afterPath="$PROJECT_DIR$/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/style.css" afterPath="$PROJECT_DIR$/css/style.css" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="amishakamdar.github.io.iws" />
@@ -31,8 +27,8 @@
       <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.67173254">
-              <caret line="156" column="69" selection-start-line="156" selection-start-column="69" selection-end-line="156" selection-end-column="69" />
+            <state vertical-scroll-proportion="0.3617021">
+              <caret line="48" column="47" selection-start-line="48" selection-start-column="47" selection-end-line="48" selection-end-column="47" />
               <folding />
             </state>
           </provider>
@@ -214,7 +210,13 @@
       <option name="project" value="LOCAL" />
       <updated>1437558264756</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Added About Aerobics">
+      <created>1437563167129</created>
+      <option name="number" value="00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1437563167129</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -248,7 +250,8 @@
     <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="false" />
     <option name="CHECK_NEW_TODO" value="false" />
     <MESSAGE value="Added CNAME" />
-    <option name="LAST_COMMIT_MESSAGE" value="Added CNAME" />
+    <MESSAGE value="Added About Aerobics" />
+    <option name="LAST_COMMIT_MESSAGE" value="Added About Aerobics" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -275,8 +278,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.67173254">
-          <caret line="156" column="69" selection-start-line="156" selection-start-column="69" selection-end-line="156" selection-end-column="69" />
+        <state vertical-scroll-proportion="0.3617021">
+          <caret line="48" column="47" selection-start-line="48" selection-start-column="47" selection-end-line="48" selection-end-column="47" />
           <folding />
         </state>
       </provider>
