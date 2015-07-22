@@ -1,0 +1,156 @@
+<div class="row">
+    <div class="col-sm-3 col-md-3">
+        <div class="wow fadeInLeft" data-wow-delay="0.2s">
+            <div class="service-box">
+                <!--<div class="service-icon">
+                    <img src="img/icons/service-icon-1.png" alt="" />
+                </div>-->
+                <div class="service-desc" ng-class="{ active:tab.isSet(1) }">
+                    <a href="" ng-click="tab.setTab(1)"><h5>Aqua Aerobics</h5></a>
+                    <!--<p>Vestibulum tincidunt enim in pharetra malesuada. Duis semper magna metus electram accommodare.</p>-->
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="col-sm-3 col-md-3">
+        <div class="wow fadeInUp" data-wow-delay="0.2s">
+            <div class="service-box">
+                <div class="service-desc" ng-class="{ active:tab.isSet(2) }">
+                    <a href="" ng-click="tab.setTab(2)"><h5>Aqua Pilate</h5></a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="col-sm-3 col-md-3">
+        <div class="wow fadeInUp" data-wow-delay="0.2s">
+            <div class="service-box">
+                <div class="service-desc" ng-class="{ active:tab.isSet(3) }">
+                    <a href="" ng-click="tab.setTab(3)"><h5>Aqua Zumba</h5></a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="col-sm-3 col-md-3">
+        <div class="wow fadeInRight" data-wow-delay="0.2s">
+            <div class="service-box">
+                <div class="service-desc" ng-class="{ active:tab.isSet(4) }">
+                    <a href="" ng-click="tab.setTab(4)"><h5>Aqua Yoga</h5></a>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<br>
+<br>
+<div ng-show="tab.isSet(1)">
+    <div class="row">
+        <div class="col-lg-6">
+            <div class="widget-contact">
+
+
+                <div>
+                    <p>With the vast array of exercise regimens and exercise classes to choose from nowadays, many people
+                        have trouble choosing an effective way of keeping fit. After a hard day at work, the average
+                        person might want something a little more engaging to keep their bodies in shape.</p>
+                </div>
+
+                <div>
+                    <p><strong>Join Aqua Aerobics</strong></p>
+                </div>
+
+                <div>
+                    <p>The aerobic moves performed in water help in flexing various muscle groups, stretching core muscles
+                        and make for a fun workout! . It focuses on aerobic endurance, resistance training, balancing
+                        body and creating an enjoyable stress free atmosphere with music. It is an hour session that
+                        includes warm up, core exercises, aqua jogging, aqua cycling, stretching and relaxation.
+                        It improves  your stamina & energy levels.<br>
+                        It is an hour session that includes warm up, core exercises, aqua jogging, aqua cycling, stretching and relaxation.
+                        All you have to do is follow the guidance of your instructor while paying attention to your form.
+                    </p>
+                </div>
+            </div>
+        </div>
+        <div class="col-lg-6">
+            <a href="img/aerobics.jpg"  style="width='667'; height='522';" class="image featured"><img src="img/aerobics.jpg" alt="Amisha Kamdar"></a>
+        </div>
+    </div>
+</div>
+
+<div ng-show="tab.isSet(2)">
+    <div class="row">
+        <div class="col-lg-6">
+            <div class="widget-contact">
+                <div>
+                    <p><strong>Aqua Pilate</strong></p>
+                </div>
+
+                <div>
+                    <p>Aqua Pilate is a body conditioning programme that relies on strengthening the “core postural
+                        muscles” of your back and stomach and will help realign your body.
+                        It is performed with breathing exercises hence its very effective for your lungs.
+                        The water’s resistance against your movements results in a higher workout intensity compared to land Pilate.
+                        A massaging effect is created when your muscles are surrounded by water.<br>
+                        <strong>Benefits:</strong><br>
+                        Improved endurance and fitness<br>
+                        Eases stiff joints and relaxes sore muscles<br>
+                        Reduced pain and fatigue (tiredness)<br>
+                    </p>
+                </div>
+            </div>
+        </div>
+        <div class="col-lg-6">
+            <a href="img/pilate.jpg"  style="width='667'; height='522';" class="image featured"><img src="img/pilate.jpg" alt="Amisha Kamdar"></a>
+        </div>
+    </div>
+</div>
+
+<div ng-show="tab.isSet(3)">
+    <div class="row">
+        <div class="col-lg-6">
+            <div class="widget-contact">
+
+                <div>
+                    <p><strong>Aqua Zumba Or Fat Burning Workout</strong></p>
+                </div>
+
+                <div>
+                    <p>Dancing in water is a fun filled workout with fast music.
+                        Aqua Dance provides cardio & strength benefits.
+                        Adding the sizzling energy of Aqua Zumba to water creates a low – impact, calorie Blasting Combo about
+                        700 calories an hour that offers plenty of freedom and fun.
+                        Instructor also takes pool dance party. Something about being in the water with loud music playing
+                        really makes you feel like you are at a beach party. You dance along and follow the instructor, who will
+                        use physical cues and patterns in the music to teach.
+                        Best thing is if you are not doing it perfectly it doesn’t matter only need to do it fast.
+                    </p>
+                </div>
+            </div>
+        </div>
+        <div class="col-lg-6">
+            <a href="img/zumba.jpg"  style="width='667'; height='522';" class="image featured"><img src="img/zumba.jpg" alt="Amisha Kamdar"></a>
+        </div>
+    </div>
+</div>
+
+<div ng-show="tab.isSet(4)">
+    <div class="row">
+        <div class="col-lg-6">
+            <div class="widget-contact">
+                <div>
+                    <p><strong>Aqua Yoga</strong></p>
+                </div>
+
+                <div>
+                    <p>The benefits of yoga need no introduction. Combining the poses of yoga with the calming effect
+                        of water, Aqua Yoga makes for a great workout! With the body bearing less weight in water, one
+                        can safely achieve even those asanas (poses) that appear complex on land. Aqua Yoga helps in
+                        improving flexibility and also improves muscle strength.
+                    </p>
+                </div>
+            </div>
+        </div>
+        <div class="col-lg-6">
+            <a href="img/yoga.jpg"  style="width='667'; height='522';" class="image featured"><img src="img/yoga.jpg" alt="Amisha Kamdar"></a>
+        </div>
+    </div>
+</div>
