@@ -63,14 +63,13 @@ a:focus {
 }
 
 .navbar-brand {
-    font-weight: 700;
-}
-.navbar-brand {
   height: 40px;
   padding: 5px 15px;
   font-size: 20px;
   line-height: 1em;
   color: #fff;
+  font-weight: 700;
+  color: black;
 }
 
 .navbar-brand small {
