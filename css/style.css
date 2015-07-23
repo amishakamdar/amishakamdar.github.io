@@ -63,13 +63,14 @@ a:focus {
 }
 
 .navbar-brand {
-  height: 40px;
+  height: auto;
   padding: 5px 15px;
   font-size: 20px;
   line-height: 1em;
   color: #fff;
   font-weight: 700;
   color: black;
+  background-color: rgba(255,255,255,.7);
 }
 
 .navbar-brand small {
@@ -90,6 +91,10 @@ a:focus {
 
 .nav.navbar-nav {
     background-color: rgba(255,255,255,.7);
+}
+
+.navbar-custom.top-nav-collapse .navbar-brand{
+    background-color: rgba(0,0,0,0);
 }
 
 .navbar-custom.top-nav-collapse .nav.navbar-nav {
