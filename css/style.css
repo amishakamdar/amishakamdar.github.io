@@ -460,6 +460,11 @@ hr {
 	margin-bottom: 20px;
 }	
 
+aqua-exercises iframe{
+    width: 100%;
+    height: 300px;
+}
+
 aqua-exercises img{
     width: 100%;
 }
