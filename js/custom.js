@@ -7,6 +7,34 @@
 		jQuery("#load").delay(100).fadeOut("slow");
 	});
 
+	Parse.initialize("a0qjNP42IkOvuyWkiPwsqTsuzQ536VAtMF6iCTxS", "EUR0byLjNSH8YETpiK7JvfHLwlFE4Rc10dL9jGhr");
+
+	var Registration = Parse.Object.extend("Registration");
+
+	function saveRegisters(){
+		var registration = new Registration();
+
+		registration.set("name", $("#name").val());
+		registration.set("email", $("#email").val());
+		registration.set("message", $("#message").val());
+
+		var callback = {
+			success:function(){
+				$('#response').html('Registered Successfully. Thanks for the support!').addClass('success').fadeIn('fast');
+			},
+			error: function(){
+				$('#response').html('Oops! Something went wrong').addClass('error').fadeIn('fast');
+			}
+		};
+
+		registration.save(null, callback);
+	}
+
+	$("#contact-form").on("submit", function(e) {
+		e.preventDefault();
+		saveRegisters();
+	});
+
 
 	//jQuery to collapse the navbar on scroll
 	$(window).scroll(function() {
